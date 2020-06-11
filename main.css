@@ -3,12 +3,24 @@
     flex-direction: column;
 }
 
-h1 {
+.main-content {
     color: #242424;
-    height: 70vh;
+    height: 50%;
+    width: 100%;
 }
 
-h2 {
+.one-thing {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.one-thing p {
+    margin-right: 10px;
+}
+
+.secondary-content {
     color: #5a5a5a;
-    height: 30vh;
+    height: 50%;
+    width: 100%;
 }
