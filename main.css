@@ -1,13 +1,14 @@
 .container {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 h1 {
     color: #242424;
+    height: 70vh;
 }
 
 h2 {
     color: #5a5a5a;
+    height: 30vh;
 }
