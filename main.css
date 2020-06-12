@@ -12,13 +12,11 @@
 .one-thing {
     display: flex;
     padding-bottom: 2%;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .one-thing p {
-    margin-right: 2%;
-    padding-bottom: 2%;
-    flex: 1;
+    box-sizing: border-box;
 }
 
 .secondary-content {
@@ -31,6 +29,14 @@
     width: 100%;
 }
 
-@media {
+@media (min-width: 768px) {
+    .one-thing {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
+    .one-thing p {
+        flex: 1;
+        padding-right: 4%;
+    }
 }
