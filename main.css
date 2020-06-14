@@ -5,6 +5,12 @@ h2 {
     font-family: 'Noto Serif', sans-serif;
 }
 
+body {
+    background: #f7f5f5;
+    display: flex;
+    flex-direction: column;
+}
+
 .main-content,
 .secondary-content {
     font-family: 'Noto Sans', sans-serif;
@@ -35,8 +41,12 @@ h2 {
     box-sizing: border-box;
 }
 
+.one-thing:last-child {
+    padding-bottom: 0;
+}
+
 .secondary-content {
-    color: #5a5a5a;
+    color: #464646;
     height: 50%;
     width: 100%;
 }
