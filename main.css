@@ -1,6 +1,20 @@
+/* Font rules */
+
+h1,
+h2 {
+    font-family: 'Noto Serif', sans-serif;
+}
+
+.main-content,
+.secondary-content {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
 }
 
 .main-content {
@@ -12,6 +26,8 @@
 .one-thing {
     display: flex;
     padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     flex-direction: column;
 }
 
@@ -23,6 +39,11 @@
     color: #5a5a5a;
     height: 50%;
     width: 100%;
+}
+
+.another-thing {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .puppet {
