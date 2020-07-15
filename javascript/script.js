@@ -11,3 +11,7 @@ palletChooser = () => {
         
     }
 }
+
+$("p").click(function() {
+    $(".poem").slideToggle();
+});
