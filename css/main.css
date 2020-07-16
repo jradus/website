@@ -24,9 +24,15 @@ body {
 }
 
 .main-content {
+    display: flex;
+    flex-direction: column;
     color: #242424;
     height: 50%;
     width: 100%;
+}
+
+.title {
+    font-weight: bold;
 }
 
 .one-thing {
@@ -35,6 +41,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     flex-direction: column;
+    width: 25%;
 }
 
 .one-thing p {
@@ -61,8 +68,12 @@ body {
 }
 
 @media (min-width: 768px) {
+    .main-content {
+        align-items: center;
+    }
+
     .one-thing {
-        flex-direction: row;
+        /* flex-direction: row; */
         flex-wrap: wrap;
     }
 
