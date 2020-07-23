@@ -26,22 +26,25 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: #242424;
     height: 50%;
     width: 100%;
-}
-
-.title {
-    font-weight: bold;
+    border: 1px solid;
 }
 
 .one-thing {
     display: flex;
     padding-bottom: 2%;
-    padding-left: 5%;
     padding-right: 5%;
     flex-direction: column;
-    width: 25%;
+    align-items: center;
+    border: 1px solid red;
+}
+
+
+.title {
+    font-weight: bold;
 }
 
 .one-thing p {
@@ -68,9 +71,6 @@ body {
 }
 
 @media (min-width: 768px) {
-    .main-content {
-        align-items: center;
-    }
 
     .one-thing {
         /* flex-direction: row; */
