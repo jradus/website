@@ -12,6 +12,6 @@ palletChooser = () => {
     }
 }
 
-$(".title").click(function() {
-    $(".poem").slideToggle();
-});
+// $(".title").click(function() {
+//     $(".poem").slideToggle();
+// });
