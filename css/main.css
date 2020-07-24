@@ -47,12 +47,20 @@ body {
 
 details {
     padding-bottom: 1%;
+    width: 410px;
+    display: flex;
+    justify-content: center;
 }
 
 summary {
     display: flex;
     font-weight: bold;
     align-items: center;
+    text-decoration: underline;
+}
+
+summary:hover {
+    text-decoration: none;
 }
 
 /* .poem {
@@ -61,8 +69,7 @@ summary {
 
 .main-content,
 .one-thing,
-.title,
-.poem {
+.title {
     width: 100%;
 }
 
