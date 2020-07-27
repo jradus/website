@@ -5,6 +5,11 @@ p {
 } */
 
 /* Font rules */
+.toggle {
+    float: right;
+    width: 20%;
+    border: 1px solid red;
+}
 
 h1,
 h2 {
@@ -15,6 +20,7 @@ body {
     background: #f0f0f0;
     display: flex;
     flex-direction: column;
+    color: #242424;
 }
 
 .main-content,
@@ -29,11 +35,15 @@ body {
     padding-right: 3.5%;
 }
 
+.dark-mode {
+    background-color: #242424;
+    color: #f3f1e6;
+}
+
 .main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #242424;
     height: 50%;
 }
 
@@ -82,7 +92,6 @@ summary:hover {
 }
 
 .secondary-content {
-    color: #464646;
     height: 50%;
     width: 100%;
 }

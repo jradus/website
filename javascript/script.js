@@ -15,3 +15,8 @@ palletChooser = () => {
 // $(".title").click(function() {
 //     $(".poem").slideToggle();
 // });
+
+function darkMode() {
+    const element = document.body;
+    element.classList.toggle("dark-mode");
+}
