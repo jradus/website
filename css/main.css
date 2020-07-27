@@ -58,6 +58,10 @@ details {
     justify-content: center;
 }
 
+details summary::-webkit-details-marker {
+    display:none;
+  }
+
 summary {
     display: flex;
     font-weight: bold;
@@ -103,7 +107,7 @@ summary:hover {
 
 @media (min-width: 768px) {
     .toggle {
-        height: 5vh;
+        height: 8vh;
         width: 18%;
     }
 }
