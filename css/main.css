@@ -1,9 +1,13 @@
 .toggle {
     /* margin-left: auto; */
     /* display: block; */
-    width: 30%;
+    width: 30vw;
     height: 8vh;
-    border: 1px solid red;
+    border: 1px solid #242424;
+}
+
+.toggle:hover {
+    background-color: #afafaf;
 }
 
 /* Font rules */
@@ -107,7 +111,7 @@ summary:hover {
 
 @media (min-width: 768px) {
     .toggle {
-        height: 8vh;
-        width: 18%;
+        height: 10vh;
+        width: 12vw;
     }
 }
